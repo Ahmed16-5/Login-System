@@ -1,0 +1,36 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #24353f;
+} 
+.box-shadow {
+  box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+input {
+  background-color: transparent !important;
+}
+input::placeholder {
+  color: #ced4da !important;
+}
+.form-control {
+  background-color: transparent !important;
+  color: #ced4da !important;
+  border: 1px solid #ced4da !important;
+}
+.nav-link {
+  border: 1px solid #ffc107 !important;
+}
+
+.nav-link:hover{
+  text-decoration: none;
+
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+.welcome-body {
+  height: 75vh;
+}
