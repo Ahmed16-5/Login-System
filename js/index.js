@@ -40,13 +40,3 @@ function loginUser() {
   }
 }
 
-function clearInputs() {
-  signupName.value = "";
-  signupEmail.value = "";
-  signupPassword.value = "";
-  //   var message = document.getElementById("Message");
-  //   message.innerHTML = "";
-  signupName.classList.remove("is-valid", "is-invalid");
-  signupEmail.classList.remove("is-valid", "is-invalid");
-  signupPassword.classList.remove("is-valid", "is-invalid");
-}
