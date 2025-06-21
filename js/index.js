@@ -28,7 +28,8 @@ function loginUser() {
         message.classList.remove("alert", "alert-danger");
         message.classList.add("alert", "alert-success");
         message.innerHTML = "successfully!";
-        window.location.href = "./../html/welcomePage.html";
+        // window.location.href = "./../html/welcomePage.html";
+        window.location.href = "html/welcomePage.html";
         localStorage.setItem("userName", userList[i].name);
         return;
       }
