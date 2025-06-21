@@ -28,8 +28,8 @@ function loginUser() {
         message.classList.remove("alert", "alert-danger");
         message.classList.add("alert", "alert-success");
         message.innerHTML = "successfully!";
-        window.location.href = "./../welcomePage.html";
-        localStorage.setItem("userName",userList[i].name)
+        window.location.href = "./../html/welcomePage.html";
+        localStorage.setItem("userName", userList[i].name);
         return;
       }
     }
@@ -39,4 +39,3 @@ function loginUser() {
     message.innerHTML = "user doesn't exist";
   }
 }
-
